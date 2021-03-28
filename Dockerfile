@@ -9,7 +9,7 @@ LABEL com.github.actions.description="Wraps the Hasura CLI to enable common comm
 LABEL com.github.actions.icon="terminal"
 LABEL com.github.actions.color="gray-dark"
 
-RUN npm i -g hasura-cli@2.0.0-alpha.5
+RUN npm i -g hasura-cli@alpha
 
 COPY LICENSE README.md /
 COPY "entrypoint.sh" "/entrypoint.sh"
